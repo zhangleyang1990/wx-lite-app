@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- 头部轮播 -->
+  <swiper indicator-dots="{{indicatorDots}}" autoplay interval="{{3000}}" duration circular duration="{{1000}}">
+    <block wx:for="{{handSwiper}}" wx:key="{{index}}">
+      <swiper-item>
+        <image src="../../images/other/{{item}}" class="slide-image"/>
+      </swiper-item>
+    </block>
+  </swiper>
+  <!-- 底部 -->
+  <view class="item-box">
+    <view class="item" wx:for="{{category}}" wx:key="{{index}}" data-type="{{item.target}}" catchtap="handleGoOtherPage">{{item.name}}</view>
+  </view>
+</view>

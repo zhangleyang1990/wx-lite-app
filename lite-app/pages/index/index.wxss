@@ -1,0 +1,23 @@
+swiper, .slide-image {
+  width: 750rpx;
+  height: 500rpx;
+}
+
+.item-box {
+  padding: 30rpx;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  height: 330rpx;
+  width: 330rpx;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 330rpx;
+  margin-bottom: 30rpx;
+  border-radius: 8rpx;
+}

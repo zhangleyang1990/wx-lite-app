@@ -1,0 +1,13 @@
+/* pages/server/server.wxss */
+
+.btn {
+  height: 100rpx;
+  width: 400rpx;
+  background-color: black;
+  border-radius: 8rpx;
+  color: white;
+  text-align: center;
+  line-height: 100rpx;
+  margin: 0 auto;
+  margin-top: 300rpx;
+}

@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/server/server",
+    "pages/myAbout/myAbout",
+    "pages/nweAbout/nweAbout",
+    "pages/product/product",
+    "pages/sellServer/sellServer",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "冬伊胜暖通",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "black",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "使用说明"
+      },
+      {
+        "pagePath": "pages/server/server",
+        "text": "服务"
+      }
+    ]
+  }
+}

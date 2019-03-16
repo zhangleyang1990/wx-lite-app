@@ -1,0 +1,4 @@
+<!--pages/server/server.wxml-->
+<view class="container">
+  <view class="btn" catchtap="handleCallMobile">呼叫服务</view>
+</view>
