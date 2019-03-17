@@ -1,2 +1,4 @@
 <!--pages/nweAbout/nweAbout.wxml-->
-<text>pages/nweAbout/nweAbout.wxml</text>
+<view class="container">
+
+</view>

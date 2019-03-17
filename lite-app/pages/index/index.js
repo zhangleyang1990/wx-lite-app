@@ -10,11 +10,11 @@ Page({
         target: 'myAbout'
       },
       {
-        name: '相关资讯',
+        name: '相关案例',
         target: 'nweAbout'
       },
       {
-        name: '产品证书',
+        name: '产品展示',
         target: 'product'
       },
       {

@@ -1,1 +1,12 @@
 /* pages/myAbout/myAbout.wxss */
+
+.container {
+  padding: 30rpx;
+}
+
+.container view {
+  text-indent: 2em;
+  margin-bottom: 20rpx;
+  font-size: 32rpx;
+  font-weight: 600;
+}

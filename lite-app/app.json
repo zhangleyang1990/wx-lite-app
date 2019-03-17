@@ -15,19 +15,25 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color": "black",
-    "selectedColor": "black",
+    "color": "#999",
+    "selectedColor": "#ff9a22",
     "borderStyle": "black",
     "list": [
       {
+        "iconPath": "/images/icon/shouye-wei@2x.png",
+        "selectedIconPath": "/images/icon/shouye-xuan@2x.png",
         "pagePath": "pages/index/index",
         "text": "首页"
       },
       {
+        "iconPath": "/images/icon/shuoming-wei@2x.png",
+        "selectedIconPath": "/images/icon/shuoming-xuan@2x.png",
         "pagePath": "pages/about/about",
         "text": "使用说明"
       },
       {
+        "iconPath": "/images/icon/fuwu-wei@2x.png",
+        "selectedIconPath": "/images/icon/fuwu-xuan@2x.png",
         "pagePath": "pages/server/server",
         "text": "服务"
       }
